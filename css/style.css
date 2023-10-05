@@ -481,6 +481,8 @@ a:focus {
 
 .service_section {
   position: relative;
+  background-image: url(https://content.pymnts.com/wp-content/uploads/2019/08/home-maintenance.jpg) ;
+  background-size: 100%;
 }
 
 .service_section .box {
@@ -578,6 +580,10 @@ a:focus {
           align-items: center;
   text-align: center;
 }
+.client_section {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
 
 .client_section .box {
   margin: 15px;
@@ -654,7 +660,7 @@ a:focus {
   margin-bottom: 30px;
 }
 
-.contact_section input {
+.contact_section input,select {
   width: 100%;
   border: none;
   height: 50px;
@@ -666,18 +672,7 @@ a:focus {
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
-.contact_section select {
-  width: 100%;
-  border: none;
-  height: 50px;
-  margin-bottom: 25px;
-  padding-left: 25px;
-  background-color: #ffffff;
-  outline: none;
-  color: #101010;
-  -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
-}
+
 
 .contact_section input::-webkit-input-placeholder {
   color: #737272;
